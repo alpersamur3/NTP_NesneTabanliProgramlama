@@ -1,7 +1,7 @@
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "Ntp.Development": {
+    "NTP.Development": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
@@ -10,7 +10,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Ntp.Production": {
+    "NTP.Production": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NTP.Domain.Entities;
+using Ntp.Domain.Entities;
 
-namespace NTP.Persistance.Configurations;
+namespace Ntp.Persistance.Configurations;
 
 public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 {

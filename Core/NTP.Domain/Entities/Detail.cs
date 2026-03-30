@@ -1,26 +1,22 @@
 ﻿using NTP.Domain.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NTP.Domain.Common;
 
-namespace NTP.Domain.Entities
+namespace NTP.Domain.Entities;
+
+public class Detail : EntityBase
 {
-    public class Detail:EntityBase
+    public Detail()
     {
-        public Detail() { }
 
-        public Detail(string title, string value, int categoryId)
-        {
-            Title = title;
-            Value = value;
-            CategoryId = categoryId;
-        }
-
-        public string Title { get; set; }
-        public string Value { get; set; }
-        public int CategoryId { get; set; }
-        public Category Category { get; set; }
     }
+
+    public Detail(string title, string value, int categoryId)
+    {
+
+    }
+
+    public required string Title { get; set; }
+    public required string Value { get; set; }
+    public required int CategoryId { get; set; }
+    public Category Category { get; set; }
 }
