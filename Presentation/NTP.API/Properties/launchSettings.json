@@ -13,7 +13,8 @@
     "NTP.Production": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false,
+      "launchUrl": "scalar",
+      "launchBrowser": true,
       "applicationUrl": "http://localhost:5053",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
